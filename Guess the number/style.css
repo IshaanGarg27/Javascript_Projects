@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #213141;
+}
+h1{
+    font-size: 50px;
+    color: aquamarine;
+}
+#rules{
+    font-size: 25px;
+    color: chocolate;
+}
+#userInput{
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    background: cornsilk;
+    font-size: 30px ;
+    text-align: center;
+}
+#submit{
+    height: 30px;
+    width: 185px;
+    background: darksalmon;
+    color: black;
+    font-size: 22px;
+    border-radius: 10px;
+}
+#resultParas{
+    font-size: 30px;
+    color: springgreen;
+    text-align: center;
+}
+#msg{
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+}
+#restart{
+    background: darksalmon ;
+    color: black;
+    height: 20px;
+    width: 100px;
+}

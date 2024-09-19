@@ -1,0 +1,58 @@
+body{
+    background-color: #213141;
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+#game{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    border: none;
+    height: 160px;
+    object-fit: cover;
+}
+img:hover{
+    border: solid rgb(248, 211, 2) 4px;
+    height: 180px;
+    cursor: pointer;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+#Logo{
+    height: 130px;
+    object-fit: cover;
+    margin: 20px;
+}
+#scoreboard{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 20px;
+}
+#yourScore , #computerScore{
+    font-size: 50px;
+}
+#msg{
+    background-color: black;
+    color: rgb(255, 215, 0);
+    height: 50px;
+    width: 280px;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+#newGame{
+    background-color: chartreuse;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+#newGame:active{
+    background-color: bisque;
+}

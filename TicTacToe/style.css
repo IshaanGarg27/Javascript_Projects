@@ -1,0 +1,46 @@
+*{
+    padding: 2px;
+}
+body{
+    text-align: center;
+    background-color: #213141;
+    color: aqua;
+}
+h1{
+    text-align: center;
+}
+#game{
+   display: flex;
+   flex-wrap: wrap; 
+   align-items: center;
+   justify-content: center;
+   gap: 1.5vmin;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    height: 400px;
+}
+.tic {
+    margin: 3px;
+    height: 120px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    font-size: 50px;
+    background-color: bisque;
+    color: orangered;
+}
+#newGame{
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    background-color: skyblue;
+    color: black;
+    font-size: large;
+}
+#msg{
+    font-size: 50px;
+    color: rgb(247, 214, 26);
+}

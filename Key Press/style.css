@@ -1,0 +1,13 @@
+body{
+    background: #213141;
+    color: aqua;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: black;
+}
+.table{
+    color: aqua;
+    font-size: 30px;
+}

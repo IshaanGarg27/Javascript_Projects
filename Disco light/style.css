@@ -1,0 +1,20 @@
+body {
+  background: #213141;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  color: darkslategrey;
+  background-color: azure ;
+  height: 60px;
+  width: 200px;
+  font-size: 40px;
+  margin: 20px;
+  border-radius: 20%;
+}
+#heading{
+    font-size: 50px;
+    margin-top: 50px;
+}

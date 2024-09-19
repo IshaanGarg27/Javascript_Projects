@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">BMI Calculator</h1>
+    <div id="formSpan">
+      <span id="form">
+        <form action="">
+          <label for=""><b> Height (cm) </b></label>
+          <input
+            type="text"
+            placeholder="Enter Height"
+            id="height"
+          /><br /><br />
+
+          <label for=""><b> Weight (kg)</b></label>
+          <input
+            type="text"
+            placeholder="Enter Weight"
+            id="weight"
+          /><br /><br />
+
+          <input type="submit" id="submit" value="Calculate" />
+        </form>
+      </span>
+    </div>
+
+    <br /><br />
+    <div id="result"></div>
+    <br /><br />
+    <span>
+      <p>
+        Below 18.5 – You're in the underweight range <br />
+        Between 18.5 and 24.9 – You're in the healthy weight range <br />
+        Between 25 and 29.9 – You're in the overweight range <br />
+        30 or over – You're in the obese range <br />
+      </p>
+    </span>
+  </body>
+  <script src="script.js"></script>
+</html>

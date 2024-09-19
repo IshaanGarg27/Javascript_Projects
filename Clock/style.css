@@ -1,0 +1,33 @@
+body {
+  background: #213141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#heading {
+  text-align: center;
+  font-size: 60px;
+  color: coral;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #132043;
+  height: 150px;
+  width: 400px;
+  border-radius: 100%;
+
+  font-size: 55px;
+  font-family: "Lucida Sans";
+  color: aqua;
+}
+
+#image {
+  height: 200px;
+  margin-bottom: 30px;
+  border-radius: 20%;
+}
